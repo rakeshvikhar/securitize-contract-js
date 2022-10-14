@@ -1,12 +1,18 @@
-PS D:\Rakesh\development\workspaces\ReactJS\js-helloworld> node .\ds-securitize-client4-IssueTokens.js
-(node:143376) ExperimentalWarning: Importing JSON modules is an experimental feature. This feature could change at any time
-(Use `node --trace-warnings ...` to show where the warning was created)
 D:\Rakesh\development\workspaces\ReactJS\js-helloworld\node_modules\web3-utils\lib\index.js:49
         error = new Error(error);
                 ^
 
-de_modules\async\internal\eachOfLimit.js:71:9
-    at eachLimit (D:\Rakesh\development\workspaces\ReactJS\js-helloworld\node_modules\async\eachLimit.js:43:36)    at D:\Rakesh\development\workspaces\ReactJS\js-helloworld\node_modules\async\internal\doLimit.js:9:16
+Error: execution reverted: Insufficient trust level
+0x08c379a000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000018496e73756666696369656e74207472757374206c6576656c0000000000000000
+    at Object._fireError (D:\Rakesh\development\workspaces\ReactJS\js-helloworld\node_modules\web3-utils\lib\index.js:49:17)
+    at sendTxCallback (D:\Rakesh\development\workspaces\ReactJS\js-helloworld\node_modules\web3-core-method\lib\index.js:553:30)
+    at D:\Rakesh\development\workspaces\ReactJS\js-helloworld\node_modules\web3-core-requestmanager\lib\index.js:297:20
+    at D:\Rakesh\development\workspaces\ReactJS\js-helloworld\node_modules\web3-provider-engine\index.js:232:9
+    at D:\Rakesh\development\workspaces\ReactJS\js-helloworld\node_modules\async\internal\once.js:12:16
+    at replenish (D:\Rakesh\development\workspaces\ReactJS\js-helloworld\node_modules\async\internal\eachOfLimit.js:61:25)
+    at D:\Rakesh\development\workspaces\ReactJS\js-helloworld\node_modules\async\internal\eachOfLimit.js:71:9
+    at eachLimit (D:\Rakesh\development\workspaces\ReactJS\js-helloworld\node_modules\async\eachLimit.js:43:36)
+    at D:\Rakesh\development\workspaces\ReactJS\js-helloworld\node_modules\async\internal\doLimit.js:9:16
     at end (D:\Rakesh\development\workspaces\ReactJS\js-helloworld\node_modules\web3-provider-engine\index.js:211:5)
     at Request._callback (D:\Rakesh\development\workspaces\ReactJS\js-helloworld\node_modules\web3-provider-engine\subproviders\rpc.js:70:28)
     at Request.self.callback (D:\Rakesh\development\workspaces\ReactJS\js-helloworld\node_modules\request\request.js:185:22)
